@@ -1,14 +1,16 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom';
+import { auth } from '../../firebase.config';
 import { signInWithPopup } from 'firebase/auth';
-import { auth } from '../../../../firebase.config';
-import { GoogleAuthProvider } from 'firebase/auth/web-extension';
+import {GoogleAuthProvider} from 'firebase/auth/web-extension';
+
 
 function Login(props) {
   const navigate = useNavigate()
   const setisLoggedIn = props.setisLoggedIn;
   const handleLogin = async() =>{
     const result = await signInWithPopup(auth, new GoogleAuthProvider);
+    console.log(result)
     setisLoggedIn(true);
     navigate('/');
   }

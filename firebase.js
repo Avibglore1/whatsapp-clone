@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import {getAuth} from 'firebase/auth';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCQS7Efk7S3WDdXjFblAscDtlsv8FdgAXI",
-  authDomain: "whatsapp-clone-f5432.firebaseapp.com",
-  projectId: "whatsapp-clone-f5432",
-  storageBucket: "whatsapp-clone-f5432.appspot.com",
-  messagingSenderId: "306534405489",
-  appId: "1:306534405489:web:9bfc495d532bca079792d0"
+  apiKey: "AIzaSyD2-3JBAPC3ieIWedoGAqrRmetnpbNWFtY",
+  authDomain: "wa-clone-da904.firebaseapp.com",
+  projectId: "wa-clone-da904",
+  storageBucket: "wa-clone-da904.appspot.com",
+  messagingSenderId: "857166653019",
+  appId: "1:857166653019:web:c040cb4d01096f046fc17e"
 };
 
 // Initialize Firebase
